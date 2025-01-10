@@ -46,12 +46,12 @@ jobs:
 
       - name: Build with Next.js 🏗️
         run: npx next build
-        working-directory: packages/kinswomen-web
+        working-directory: packages/kinswoman-web
 
       - name: Upload artifact 📡
         uses: actions/upload-pages-artifact@v3
         with:
-          path: packages/kinswomen-web/out
+          path: packages/kinswoman-web/out
 
   deploy:
     environment:
