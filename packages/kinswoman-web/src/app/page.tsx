@@ -99,7 +99,7 @@ export default function Home() {
             // backgroundSize: 'contain',
             // background: `url(/lou-lou-b-photo-0AdXnjtCpr0-unsplash.jpg)`
           }}>
-            <img style={{ transformOrigin: '50% 50%', transform: 'rotate(-90deg) translate(150px, -150px)', position: 'absolute', height: 'auto', width: '200%' }} src={'/lou-lou-b-photo-0AdXnjtCpr0-unsplash.jpg'} />
+            <img style={{ transformOrigin: '50% 50%', transform: 'rotate(-90deg) translate(150px, -150px)', position: 'absolute', height: 'auto', width: '200%' }} src={'./lou-lou-b-photo-0AdXnjtCpr0-unsplash.jpg'} />
           </div>
           <div style={{
             width: '30%'
