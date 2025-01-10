@@ -21,32 +21,32 @@ export default function Home() {
 
   const cards: any[] = [
     {
-      image: '/renata-adrienn-ebvCsRypmxM-unsplash.jpg',
+      image: './renata-adrienn-ebvCsRypmxM-unsplash.jpg',
       title: "POST PARTUM PLANNING",
       description: "We can make a plan together for what you want your post-partum to"
     },
     {
-      image: '/daiga-ellaby-uooMllXe6gE-unsplash.jpg',
+      image: './daiga-ellaby-uooMllXe6gE-unsplash.jpg',
       title: "HELPFUL HOUSEWORK",
       description: "Keeping your household running smoothly doing whatever needs doing-whether it’s dishes, laundry, tidying, or cleaning."
     },
     {
-      image: '/deryn-macey-IooxyWj2uso-unsplash.jpg',
+      image: './deryn-macey-IooxyWj2uso-unsplash.jpg',
       title: "MEALS + NOURISHMENT",
       description: "Taking care of cooking meals, helping with meal prep or planning, helping with groceries, or providing nourishing recipes."
     },
     {
-      image: '/dan-gold-aJN-jjFLyCU-unsplash.jpg',
+      image: './dan-gold-aJN-jjFLyCU-unsplash.jpg',
       title: "AFTER-BIRTH SUPPORT",
       description: "I can assist with cleaning up after the birth and creating a soothing environment for you to recover in."
     },
     {
-      image: '/christin-hume-0MoF-Fe0w0A-unsplash.jpg',
+      image: './christin-hume-0MoF-Fe0w0A-unsplash.jpg',
       title: "MAMA CARE",
       description: "Helping you relax and care for your body with intention and herbal support such as healing body oils or a natural yoni steam blend."
     },
     {
-      image: '/kyle-nieber-EKSRKJn_9a4-unsplash.jpg',
+      image: './kyle-nieber-EKSRKJn_9a4-unsplash.jpg',
       title: "BABY WEARING",
       description: "Caring for your precious one while you take the time to rest, shower, and give yourself the space to be supported during recovery."
     }
@@ -59,7 +59,7 @@ export default function Home() {
         height: '100vh',
         display: 'flex',
         flexDirection: 'column',
-        background: `url(/nikhil-prasad-0zvYY4X_zZk-unsplash.jpg)`,
+        background: `url(./nikhil-prasad-0zvYY4X_zZk-unsplash.jpg)`,
         backgroundSize: 'cover',
         backgroundPosition: '50% 50%'
       }}>
@@ -179,7 +179,7 @@ export default function Home() {
               borderRadius: '12px',
               width: '20vw'
             }}
-              src={'/kayla.JPG'} />
+              src={'./kayla.JPG'} />
             <div style={{ width: '40vw' }}>
               <h2 style={{ marginBottom: '12px' }}>About me</h2>
               <p>
@@ -261,7 +261,7 @@ export default function Home() {
           zIndex: -1,
           left: 0,
           top: 0,
-          background: `url(/nikhil-prasad-0zvYY4X_zZk-unsplash.jpg)`,
+          background: `url(./nikhil-prasad-0zvYY4X_zZk-unsplash.jpg)`,
           backgroundSize: 'cover',
           backgroundPosition: '0 50%',
           filter: 'blur(5px)',
