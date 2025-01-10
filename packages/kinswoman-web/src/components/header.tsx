@@ -13,7 +13,7 @@ export const KinswomanHeader = () => {
               alignItems: 'center',
               justifyContent: 'center',
             }}>
-              <img style={{ height: '60px' }} src={'/logo.svg'} />
+              <img style={{ height: '60px' }} src={'./logo.svg'} />
             </div>
             <div style={{
               background: '#985959',
@@ -24,15 +24,15 @@ export const KinswomanHeader = () => {
               borderBottomRightRadius: '8px',
             }}>
               <div style={{display: 'flex', alignItems: 'center'}}>
-                <img style={{ height: '100px' }} src={'/hands.png'} />
+                <img style={{ height: '100px' }} src={'./hands.png'} />
               </div>
               <div style={{ display: 'flex' }}>
                 <div style={{marginRight: '8px'}}>
-                  <img style={{height: '20px'}} src={'/n.png'} />
+                  <img style={{height: '20px'}} src={'./n.png'} />
                 </div>
                 <div style={{ display: 'flex', gap: '12px', maxWidth: '200px', flexDirection: 'column' }}>
-                  <img style={{height: '20px', width: '150px'}} src={'/kinz-woman.png'} />
-                  <img src={'/same-root.png'} />
+                  <img style={{height: '20px', width: '150px'}} src={'./kinz-woman.png'} />
+                  <img src={'./same-root.png'} />
                 </div>
               </div>
             </div>
